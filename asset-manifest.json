@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CovidDashboard/static/css/main.06934d18.chunk.css",
-    "main.js": "/CovidDashboard/static/js/main.42b49396.chunk.js",
-    "main.js.map": "/CovidDashboard/static/js/main.42b49396.chunk.js.map",
-    "runtime-main.js": "/CovidDashboard/static/js/runtime-main.4c496b6b.js",
-    "runtime-main.js.map": "/CovidDashboard/static/js/runtime-main.4c496b6b.js.map",
-    "static/js/2.b5fc5127.chunk.js": "/CovidDashboard/static/js/2.b5fc5127.chunk.js",
-    "static/js/2.b5fc5127.chunk.js.map": "/CovidDashboard/static/js/2.b5fc5127.chunk.js.map",
-    "static/js/3.3aa16789.chunk.js": "/CovidDashboard/static/js/3.3aa16789.chunk.js",
-    "static/js/3.3aa16789.chunk.js.map": "/CovidDashboard/static/js/3.3aa16789.chunk.js.map",
+    "main.css": "/CovidDashboard/static/css/main.41f19697.chunk.css",
+    "main.js": "/CovidDashboard/static/js/main.d6873232.chunk.js",
+    "main.js.map": "/CovidDashboard/static/js/main.d6873232.chunk.js.map",
+    "runtime-main.js": "/CovidDashboard/static/js/runtime-main.2977de76.js",
+    "runtime-main.js.map": "/CovidDashboard/static/js/runtime-main.2977de76.js.map",
+    "static/js/2.ff64a80a.chunk.js": "/CovidDashboard/static/js/2.ff64a80a.chunk.js",
+    "static/js/2.ff64a80a.chunk.js.map": "/CovidDashboard/static/js/2.ff64a80a.chunk.js.map",
+    "static/js/3.c430d0a1.chunk.js": "/CovidDashboard/static/js/3.c430d0a1.chunk.js",
+    "static/js/3.c430d0a1.chunk.js.map": "/CovidDashboard/static/js/3.c430d0a1.chunk.js.map",
     "index.html": "/CovidDashboard/index.html",
-    "static/css/main.06934d18.chunk.css.map": "/CovidDashboard/static/css/main.06934d18.chunk.css.map",
-    "static/js/2.b5fc5127.chunk.js.LICENSE.txt": "/CovidDashboard/static/js/2.b5fc5127.chunk.js.LICENSE.txt"
+    "static/css/main.41f19697.chunk.css.map": "/CovidDashboard/static/css/main.41f19697.chunk.css.map",
+    "static/js/2.ff64a80a.chunk.js.LICENSE.txt": "/CovidDashboard/static/js/2.ff64a80a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c496b6b.js",
-    "static/js/2.b5fc5127.chunk.js",
-    "static/css/main.06934d18.chunk.css",
-    "static/js/main.42b49396.chunk.js"
+    "static/js/runtime-main.2977de76.js",
+    "static/js/2.ff64a80a.chunk.js",
+    "static/css/main.41f19697.chunk.css",
+    "static/js/main.d6873232.chunk.js"
   ]
 }
