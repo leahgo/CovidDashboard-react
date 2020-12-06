@@ -30,24 +30,28 @@ const DecideCntChart = (props) => {
           dataKey="decideCnt"
           stroke="#8884d8"
           name="확진자 수"
+          dot={false}
         />
         <Line
           type="monotone"
           dataKey="clearCnt"
           stroke="#003882"
           name="격리해제 수"
+          dot={false}
         />
         <Line
           type="monotone"
           dataKey="examCnt"
           stroke="#007682"
           name="검사진행 수"
+          dot={false}
         />
         <Line
           type="monotone"
           dataKey="careCnt"
           stroke="#985993"
           name="치료중 환자 수"
+          dot={false}
         />
       </LineChart>
     </div>
