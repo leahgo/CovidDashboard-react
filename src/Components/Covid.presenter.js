@@ -29,7 +29,7 @@ const Covid = (props) => {
       </div>
       <div className="Content">
         {page === "Home" ? (
-          <div>
+          <div className="Middle">
             <div className="Date">
               <DatePicker
                 locale={ko} // 언어설정 기본값은 영어
