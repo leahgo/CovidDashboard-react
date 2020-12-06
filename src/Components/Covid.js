@@ -60,19 +60,25 @@ const Covid = () => {
         "&endCreateDt=" +
         endCreateDt
     );
-    console.log(response.data);
+    // console.log(response.data);
 
     if (response.data.response.header.resultCode === "00") {
-      // console.log(response.data.response.body.items.item);
-      tmpArr = response.data.response.body.items.item;
-      tmpArr.reverse();
-      setLineChartData(tmpArr);
-    } else {
-      console.log(
-        "error : ",
-        response.data.response.header.resultCode,
-        response.data.response.header.resultMsg
-      );
+      if (response.data.response.body.items.length !== 0) {
+        tmpArr = response.data.response.body.items.item;
+        if (tmpArr.length > 1) {
+          tmpArr.reverse();
+        } else {
+          tmpArr = [];
+          tmpArr.push(response.data.response.body.items.item);
+        }
+        setLineChartData(tmpArr);
+      } else {
+        console.log(
+          "error : ",
+          response.data.response.header.resultCode,
+          response.data.response.header.resultMsg
+        );
+      }
     }
     // console.log("data", data);
   };
@@ -90,7 +96,7 @@ const Covid = () => {
       "pazBdlMEQ8jBn1ovS4UfBWEMzypVRd5jPd887GygCIAQWJYJWbzAcAn3w5jaYyPN3lwpX69kUb6dl3rbeMgAww%3D%3D";
     let pageNo = "1";
     let numOfRows = "10";
-    // let startCreateDt = moment(startDt).format("YYYYMMDD");
+    let startCreateDt = moment(startDt).format("YYYYMMDD");
     let endCreateDt = moment(endDt).format("YYYYMMDD");
     let tmpArr = [];
 
@@ -104,7 +110,7 @@ const Covid = () => {
         "&numOfRows=" +
         numOfRows +
         "&startCreateDt=" +
-        endCreateDt +
+        startCreateDt +
         "&endCreateDt=" +
         endCreateDt
     );
@@ -127,21 +133,24 @@ const Covid = () => {
     if (response.data.response.header.resultCode === "00") {
       let tmpAge = [];
       let tmpGen = [];
-      // console.log("item", response.data.response.body.items.item);
-      tmpArr = response.data.response.body.items.item;
-      tmpArr.reverse();
+      // console.log(response.data.response.body.items.length);
+      if (response.data.response.body.items.length !== 0) {
+        tmpArr = response.data.response.body.items.item;
+        if (tmpArr === []) return;
+        if (tmpArr.length > 1) tmpArr.reverse();
 
-      tmpArr.map((i) => {
-        if (i.gubun === "여성" || i.gubun === "남성") {
-          tmpGen.push(i);
-        } else {
-          tmpAge.push(i);
-        }
-        // console.log("tmpGen", tmpGen);
-        // console.log("tmpAge", tmpAge);
-        setAgeData(tmpAge);
-        setGenData(tmpGen);
-      });
+        tmpArr.map((i) => {
+          if (i.gubun === "여성" || i.gubun === "남성") {
+            tmpGen.push(i);
+          } else {
+            tmpAge.push(i);
+          }
+          // console.log("tmpGen", tmpGen);
+          // console.log("tmpAge", tmpAge);
+          setAgeData(tmpAge);
+          setGenData(tmpGen);
+        });
+      }
     }
   };
 

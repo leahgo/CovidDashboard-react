@@ -12,6 +12,7 @@ import {
 } from "recharts";
 
 const DecideCntChart = (props) => {
+  // console.log("data", props.data);
   return (
     <div className="Chart">
       <LineChart
