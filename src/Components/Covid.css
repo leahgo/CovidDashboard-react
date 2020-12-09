@@ -61,7 +61,7 @@
   display: inline-flex;
   flex: none;
   font-size: 1.3rem;
-  margin: 10px;
+  margin-bottom: 20px;
   align-items: center;
 }
 
@@ -70,6 +70,13 @@
   font-size: 1.3rem;
   padding-left: 10px;
   padding-right: 10px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .Navigation {
@@ -90,19 +97,18 @@
 .btnNav {
   background: none;
   border: none;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  padding: 10px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .btnNav:hover {
-  background-color: skyblue;
+  background-color: darkblue;
+  color: white;
 }
 
 .btnNav:focus {
-  background-color: paleturquoise;
-}
-
-.btnNav:visited {
-  color: black;
+  background-color: darkblue;
+  color: white;
 }

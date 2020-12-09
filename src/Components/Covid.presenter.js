@@ -20,7 +20,12 @@ const Covid = (props) => {
         <h1>Covid-19 Dashboard</h1>
       </div>
       <div className="Navigation">
-        <button className="btnNav" onClick={() => setPage("Home")}>
+        <button
+          className="btnNav"
+          onClick={() => {
+            setPage("Home");
+          }}
+        >
           Home
         </button>
         <button className="btnNav" onClick={() => setPage("GenAgeCase")}>
