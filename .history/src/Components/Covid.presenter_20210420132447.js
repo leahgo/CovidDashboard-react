@@ -16,10 +16,9 @@ const Covid = (props) => {
   return (
     <div className="Main">
       <div className="Toolbar">
-        <br />
-        <h1>코로나19 실시간 상황판<br />Covid-19 Dashboard</h1>
-        <br />
-        <h2>※ 그래프가 보이지 않는 경우 브라우저에서 '안전하지 않은 콘텐츠 : 허용'으로 바꿔주세요.<br />https 연결중인 github.io에서 공공데이터 포털 http를 호출할 때 발생하는 오류입니다.</h2>
+        <h1>코로나19 실시간 상황판</h1>
+        <h1>Covid-19 Dashboard</h1>
+        <h2> ※ 그래프가 보이지 않는 경우 브라우저에서 '안전하지 않은 콘텐츠 : 허용'으로 바꿔주세요.\n https 연결중인 github.io에서 공공데이터 포털 http를 호출할 때 발생하는 오류입니다.</h2>
       </div>
       <div className="Navigation">
         <button
