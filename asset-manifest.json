@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/CovidDashboard/static/css/main.8376025d.chunk.css",
-    "main.js": "/CovidDashboard/static/js/main.12145fac.chunk.js",
-    "main.js.map": "/CovidDashboard/static/js/main.12145fac.chunk.js.map",
-    "runtime-main.js": "/CovidDashboard/static/js/runtime-main.682a67c9.js",
-    "runtime-main.js.map": "/CovidDashboard/static/js/runtime-main.682a67c9.js.map",
-    "static/js/2.d2282f82.chunk.js": "/CovidDashboard/static/js/2.d2282f82.chunk.js",
-    "static/js/2.d2282f82.chunk.js.map": "/CovidDashboard/static/js/2.d2282f82.chunk.js.map",
-    "static/js/3.6873b2fb.chunk.js": "/CovidDashboard/static/js/3.6873b2fb.chunk.js",
-    "static/js/3.6873b2fb.chunk.js.map": "/CovidDashboard/static/js/3.6873b2fb.chunk.js.map",
-    "index.html": "/CovidDashboard/index.html",
-    "static/css/main.8376025d.chunk.css.map": "/CovidDashboard/static/css/main.8376025d.chunk.css.map",
-    "static/js/2.d2282f82.chunk.js.LICENSE.txt": "/CovidDashboard/static/js/2.d2282f82.chunk.js.LICENSE.txt"
+    "main.css": "/CovidDashboardReact/static/css/main.d548b00f.chunk.css",
+    "main.js": "/CovidDashboardReact/static/js/main.d0b58f73.chunk.js",
+    "main.js.map": "/CovidDashboardReact/static/js/main.d0b58f73.chunk.js.map",
+    "runtime-main.js": "/CovidDashboardReact/static/js/runtime-main.484b376b.js",
+    "runtime-main.js.map": "/CovidDashboardReact/static/js/runtime-main.484b376b.js.map",
+    "static/js/2.8f8a30ec.chunk.js": "/CovidDashboardReact/static/js/2.8f8a30ec.chunk.js",
+    "static/js/2.8f8a30ec.chunk.js.map": "/CovidDashboardReact/static/js/2.8f8a30ec.chunk.js.map",
+    "static/js/3.419200d3.chunk.js": "/CovidDashboardReact/static/js/3.419200d3.chunk.js",
+    "static/js/3.419200d3.chunk.js.map": "/CovidDashboardReact/static/js/3.419200d3.chunk.js.map",
+    "index.html": "/CovidDashboardReact/index.html",
+    "static/css/main.d548b00f.chunk.css.map": "/CovidDashboardReact/static/css/main.d548b00f.chunk.css.map",
+    "static/js/2.8f8a30ec.chunk.js.LICENSE.txt": "/CovidDashboardReact/static/js/2.8f8a30ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.682a67c9.js",
-    "static/js/2.d2282f82.chunk.js",
-    "static/css/main.8376025d.chunk.css",
-    "static/js/main.12145fac.chunk.js"
+    "static/js/runtime-main.484b376b.js",
+    "static/js/2.8f8a30ec.chunk.js",
+    "static/css/main.d548b00f.chunk.css",
+    "static/js/main.d0b58f73.chunk.js"
   ]
 }
