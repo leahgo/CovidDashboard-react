@@ -18,9 +18,9 @@ const Covid = () => {
     // console.log("clicked");
     console.log(
       "startDt:" +
-        moment(startDt).format("YYYYMMDD") +
-        "/endDt:" +
-        moment(endDt).format("YYYYMMDD")
+      moment(startDt).format("YYYYMMDD") +
+      "/endDt:" +
+      moment(endDt).format("YYYYMMDD")
     );
     const url =
       "http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19InfStateJson";
@@ -35,30 +35,30 @@ const Covid = () => {
     console.log(
       "url",
       url +
-        "?ServiceKey=" +
-        ServiceKey +
-        "&pageNo=" +
-        pageNo +
-        "&numOfRows=" +
-        numOfRows +
-        "&startCreateDt=" +
-        startCreateDt +
-        "&endCreateDt=" +
-        endCreateDt
+      "?ServiceKey=" +
+      ServiceKey +
+      "&pageNo=" +
+      pageNo +
+      "&numOfRows=" +
+      numOfRows +
+      "&startCreateDt=" +
+      startCreateDt +
+      "&endCreateDt=" +
+      endCreateDt
     );
 
     const response = await axios.get(
       url +
-        "?ServiceKey=" +
-        ServiceKey +
-        "&pageNo=" +
-        pageNo +
-        "&numOfRows=" +
-        numOfRows +
-        "&startCreateDt=" +
-        startCreateDt +
-        "&endCreateDt=" +
-        endCreateDt
+      "?ServiceKey=" +
+      ServiceKey +
+      "&pageNo=" +
+      pageNo +
+      "&numOfRows=" +
+      numOfRows +
+      "&startCreateDt=" +
+      startCreateDt +
+      "&endCreateDt=" +
+      endCreateDt
     );
     // console.log(response.data);
 
@@ -86,12 +86,12 @@ const Covid = () => {
   const setGenAgeCase = async (startDt, endDt) => {
     console.log(
       "startDt:" +
-        moment(startDt).format("YYYYMMDD") +
-        "/endDt:" +
-        moment(endDt).format("YYYYMMDD")
+      moment(startDt).format("YYYYMMDD") +
+      "/endDt:" +
+      moment(endDt).format("YYYYMMDD")
     );
     const url =
-      "http://openapi.data.go.kr/openapi/service/rest/Covid19/getCovid19GenAgeCaseInfJson";
+      "/openapi/service/rest/Covid19/getCovid19GenAgeCaseInfJson";
     const ServiceKey =
       "pazBdlMEQ8jBn1ovS4UfBWEMzypVRd5jPd887GygCIAQWJYJWbzAcAn3w5jaYyPN3lwpX69kUb6dl3rbeMgAww%3D%3D";
     let pageNo = "1";
@@ -103,30 +103,36 @@ const Covid = () => {
     console.log(
       "url",
       url +
-        "?ServiceKey=" +
-        ServiceKey +
-        "&pageNo=" +
-        pageNo +
-        "&numOfRows=" +
-        numOfRows +
-        "&startCreateDt=" +
-        startCreateDt +
-        "&endCreateDt=" +
-        endCreateDt
+      "?ServiceKey=" +
+      ServiceKey +
+      "&pageNo=" +
+      pageNo +
+      "&numOfRows=" +
+      numOfRows +
+      "&startCreateDt=" +
+      startCreateDt +
+      "&endCreateDt=" +
+      endCreateDt
     );
 
     const response = await axios.get(
       url +
-        "?ServiceKey=" +
-        ServiceKey +
-        "&pageNo=" +
-        pageNo +
-        "&numOfRows=" +
-        numOfRows +
-        "&startCreateDt=" +
-        endCreateDt +
-        "&endCreateDt=" +
-        endCreateDt
+      "?ServiceKey=" +
+      ServiceKey +
+      "&pageNo=" +
+      pageNo +
+      "&numOfRows=" +
+      numOfRows +
+      "&startCreateDt=" +
+      endCreateDt +
+      "&endCreateDt=" +
+      endCreateDt,
+      {
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Content-Type': 'application/json; charset = utf-8'
+        }
+      }
     );
     console.log(response.data);
 
