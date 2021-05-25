@@ -71,6 +71,10 @@ const Covid = () => {
           tmpArr = [];
           tmpArr.push(response.data.response.body.items.item);
         }
+
+        tmpArr.sort((a, b) => {
+          return a.createDt < b.createDt ? -1 : a.createDt > b.createDt ? 1 : 0
+        })
         setLineChartData(tmpArr);
       } else {
         console.log(
