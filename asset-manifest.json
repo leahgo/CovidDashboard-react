@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CovidDashboardReact/static/css/main.d548b00f.chunk.css",
-    "main.js": "/CovidDashboardReact/static/js/main.4fc891fb.chunk.js",
-    "main.js.map": "/CovidDashboardReact/static/js/main.4fc891fb.chunk.js.map",
+    "main.js": "/CovidDashboardReact/static/js/main.f0980057.chunk.js",
+    "main.js.map": "/CovidDashboardReact/static/js/main.f0980057.chunk.js.map",
     "runtime-main.js": "/CovidDashboardReact/static/js/runtime-main.484b376b.js",
     "runtime-main.js.map": "/CovidDashboardReact/static/js/runtime-main.484b376b.js.map",
     "static/js/2.8f8a30ec.chunk.js": "/CovidDashboardReact/static/js/2.8f8a30ec.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.484b376b.js",
     "static/js/2.8f8a30ec.chunk.js",
     "static/css/main.d548b00f.chunk.css",
-    "static/js/main.4fc891fb.chunk.js"
+    "static/js/main.f0980057.chunk.js"
   ]
 }
